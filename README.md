@@ -11,7 +11,7 @@ Run the script on Sever (host machine) to install docker, curl, openssh-server, 
 
 sudo apt-get update -y \
 && sudo apt-get install docker.io -y \
-&& sudo usermod -aG docker ubuntu \
+&& sudo usermod -aG docker eawangya \
 && sudo systemctl enable docker \
 && sudo systemctl start docker
 
