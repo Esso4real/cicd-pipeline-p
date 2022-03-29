@@ -1,0 +1,6 @@
+---
+plugin: aws_ec2
+regions:
+  - us-west-2
+filters:
+  tag:Name: myapp-eks-cluster-worker_group-1-eks_asg

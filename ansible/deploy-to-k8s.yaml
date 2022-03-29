@@ -1,0 +1,9 @@
+---
+- name: Deploying on eks cluster
+  hosts: localhost
+  tasks:
+   - name: Deploying on eks cluster
+       api-version: v1
+       kind: Namespace
+       state: present
+       
